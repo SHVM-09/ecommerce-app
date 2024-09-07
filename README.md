@@ -193,9 +193,57 @@ export default LoadingSpinner;
 ```
 - A simple spinner component used during data fetching.
 
-## Testing
-- **Vitest** is used for testing components and ensuring functionality.
-- Tests include checking if components render correctly, if the loading spinner shows during data fetching, and verifying user interactions.
+## Test Files Explanation
+
+### 1. `cart.test.js`
+Tests related to the Cart page, ensuring that cart functionality (like adding and removing items) works correctly and that the cart page renders as expected.
+
+### 2. `home.test.js`
+Tests for the Home page, including verifying that products are displayed correctly and that search functionality and loading states are handled properly.
+
+### 3. `info.test.js`
+Tests for the InfoPage, checking if the page renders the expected information and functions as intended.
+
+### 4. `ordersummary.test.js`
+Tests for the OrderSummary page, ensuring that the summary displays correctly and that the order confirmation process works as expected.
+
+## How to Start the Project
+
+1. **Clone the Repository**
+   ```bash
+   git clone https://github.com/SHVM-09/ecommerce-app.git <project-directory>
+   cd <project-directory>
+   ```
+
+2. **Install Dependencies**
+   ```bash
+   npm install
+   ```
+
+3. **Start the Development Server**
+   ```bash
+   npm run dev
+   ```
+   - Open your browser and navigate to `http://localhost:5173`.
+
+4. **Run Tests**
+   ```bash
+   npm test
+   ```
+   - This will run the tests using Vitest.
+
+5. **Build the Project**
+   ```bash
+   npm run build
+   ```
+   - Builds the project for production use.
+
+## Deployment
+
+The project has been deployed to Vercel. You can check it out [here](https://ecommerce-ehvp7279l-shvm09s-projects.vercel.app/).
 
 ## Conclusion
-This e-commerce project utilizes modern tools and technologies to provide a robust and user-friendly shopping experience. It integrates various features, including product management, user authentication, and order processing, to deliver a seamless e-commerce platform.
+
+This e-commerce project provides a comprehensive and user-friendly shopping experience with modern tools and technologies. It includes key features such as product management, user authentication(temporary), testing and order processing. The use of React, Vite, Vitest Tailwind CSS, Redux, and other technologies ensures a robust and responsive application.
+
+Feel free to explore and contribute to the project!

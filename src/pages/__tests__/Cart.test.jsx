@@ -48,7 +48,7 @@ describe("Cart Component", () => {
     expect(screen.getByText("$10.00")).toBeInTheDocument();
     expect(screen.getByText("2")).toBeInTheDocument();
     expect(screen.getByText("$20.00")).toBeInTheDocument();
-    expect(screen.getByText("Proceed to Checkout")).toBeInTheDocument();
+    expect(screen.getByText("Checkout")).toBeInTheDocument();
   });
 
   test("displays empty cart message when no items are present", () => {
@@ -155,7 +155,7 @@ describe("Cart Component", () => {
 
     renderWithStore(initialState);
 
-    const checkoutButton = screen.getByText("Proceed to Checkout");
+    const checkoutButton = screen.getByText("Checkout");
     expect(checkoutButton).toBeInTheDocument();
     // Assuming you have a mock for routing here if needed
   });

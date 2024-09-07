@@ -121,7 +121,7 @@ const Cart = () => {
               to="/checkout"
               className="rounded border border-blue-500 px-6 py-2 font-semibold text-blue-600 transition-colors hover:bg-blue-600 hover:text-white"
             >
-              Proceed to Checkout
+              Checkout
             </Link>
           </div>
         </div>
