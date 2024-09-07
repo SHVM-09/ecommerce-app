@@ -30,11 +30,11 @@ const Navbar = () => {
       <div className="flex items-center gap-6">
         {/* User Authentication Display */}
         {user ? (
-          <div className="flex items-center space-x-4">
-            <span>Hello, {user.name}</span>
+          <div className="hidden items-center space-x-4 sm:flex">
+            <span>Hello, {user?.name.split(" ")[0]}</span>
             <button
               onClick={logout}
-              className="rounded bg-red-500 px-3 py-1 transition duration-200 hover:bg-red-600"
+              className="rounded border border-red-500 px-3 py-1 text-red-500 transition duration-200 hover:bg-red-600"
             >
               Logout
             </button>

@@ -7,9 +7,10 @@ const InfoPage = () => {
       {/* Centered container for the info page content */}
       <div className="text-center">
         {/* Main heading of the page */}
-        <h1 className="mb-4 text-4xl font-extrabold leading-tight text-gray-900">
+        <h1 className="mb-4 text-3xl font-extrabold leading-tight text-gray-900 sm:text-4xl">
           Welcome to the{" "}
-          <span className="text-6xl text-blue-600">E-Commerce</span> Store!
+          <span className="text-4xl text-blue-600 sm:text-6xl">E-Commerce</span>{" "}
+          Store!
         </h1>
 
         {/* Description paragraph */}
@@ -18,7 +19,7 @@ const InfoPage = () => {
           and take advantage of amazing discounts and exclusive offers!
         </p>
         <div className="flex items-center justify-center gap-4">
-          <GiShoppingCart className="text-[300px] text-blue-600" />
+          <GiShoppingCart className="text-[150px] text-blue-600 sm:text-[300px]" />
 
           {/* Button to navigate to the products page */}
           <Link to="/products">

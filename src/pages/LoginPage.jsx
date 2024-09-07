@@ -29,9 +29,9 @@ const LoginPage = () => {
   };
 
   return (
-    <div className="mx-auto max-w-md rounded-lg bg-white p-4 shadow-md sm:p-6">
+    <div className="mx-auto mt-4 max-w-md rounded-lg bg-white p-4 drop-shadow-lg sm:p-6">
       <h1 className="mb-4 text-center text-2xl font-bold text-gray-900">
-        Login
+        Ecommerce User Login
       </h1>
       <form onSubmit={handleSubmit} className="space-y-4">
         {/* Name Input */}
